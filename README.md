@@ -12,7 +12,7 @@ In the simplest terms, the role of a fire alarm system is to detect fire and ale
 
 
 HARDWARE COMPONENTS:
-(3rd SLIDE)
+
 
 -> 1 Arduino Mega256
 -> 3 plexiglass pads (26cm x 25cm x0.2cm)
