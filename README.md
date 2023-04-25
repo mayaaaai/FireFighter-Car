@@ -9,6 +9,16 @@ PURPOSE:
 
 In the simplest terms, the role of a fire alarm system is to detect fire and alert people around the problematic area. As a bonus, our fire alarm system comes with an extinguish system that puts down the fire using the water from the tank and also the water pump to reach that specific area. 
 
+THE WAY IT WORKS:
+
+1. Detection of flames is achieved using flame sensors (front side: middle, left, right, left side, right side) mounted on the car.
+
+2. When the car is too close to the flame, the sensor on the middle (front) is read (function: AnalogRead().). The car goes to the back so as not to burn out. 
+
+3. Using the servo motor (void porneste_servo()) which manages the water hose and water pump which are located in a container above the cars, the effective action begins putting out the fire once the car has reached a favorable distance from the flame (void put_off_fire()).
+
+4. As long as no fire is detected, the vehicle keeps moving until it meets a fire source using the sensor data.
+
 
 
 HARDWARE COMPONENTS:
